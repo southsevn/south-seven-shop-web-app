@@ -38,7 +38,6 @@
 }
 
 .products-list {
-  width: 580px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -51,6 +50,7 @@
   background: rgb(238, 232, 232);
   padding: 24px;
   width: 360px;
+  max-width: 80%;
   min-height: 250px;
   display: flex;
   flex-direction: column;
