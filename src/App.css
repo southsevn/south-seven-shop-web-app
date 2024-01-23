@@ -40,3 +40,33 @@
 .read-the-docs {
   color: #888;
 }
+
+.products-list {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.product {
+  flex: 1;
+  border-radius: 4px;
+  background: rgb(238, 232, 232);
+  padding: 8px;
+  max-width: 250px;
+  min-height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product h2 {
+  color: rgb(58, 56, 56);
+  font-size: 12px;
+  margin-top: auto;
+}
+
+.product img {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+}
